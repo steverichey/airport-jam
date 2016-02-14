@@ -7,21 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		D78467421C6EC5E9007116C8 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78467411C6EC5E9007116C8 /* AppDelegate.swift */; };
-		D78467441C6EC5E9007116C8 /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78467431C6EC5E9007116C8 /* GameScene.swift */; };
-		D78467461C6EC5E9007116C8 /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = D78467451C6EC5E9007116C8 /* GameScene.sks */; };
-		D78467481C6EC5E9007116C8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D78467471C6EC5E9007116C8 /* Assets.xcassets */; };
-		D784674B1C6EC5E9007116C8 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = D78467491C6EC5E9007116C8 /* MainMenu.xib */; };
+		D78467531C6EC688007116C8 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = D78467521C6EC688007116C8 /* main.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		D784673E1C6EC5E9007116C8 /* AirportJam.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AirportJam.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		D78467411C6EC5E9007116C8 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		D78467431C6EC5E9007116C8 /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
-		D78467451C6EC5E9007116C8 /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
-		D78467471C6EC5E9007116C8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		D784674A1C6EC5E9007116C8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/MainMenu.xib; sourceTree = "<group>"; };
 		D784674C1C6EC5E9007116C8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D78467521C6EC688007116C8 /* main.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,11 +46,7 @@
 		D78467401C6EC5E9007116C8 /* AirportJam */ = {
 			isa = PBXGroup;
 			children = (
-				D78467411C6EC5E9007116C8 /* AppDelegate.swift */,
-				D78467431C6EC5E9007116C8 /* GameScene.swift */,
-				D78467451C6EC5E9007116C8 /* GameScene.sks */,
-				D78467471C6EC5E9007116C8 /* Assets.xcassets */,
-				D78467491C6EC5E9007116C8 /* MainMenu.xib */,
+				D78467521C6EC688007116C8 /* main.swift */,
 				D784674C1C6EC5E9007116C8 /* Info.plist */,
 			);
 			path = AirportJam;
@@ -122,9 +110,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78467481C6EC5E9007116C8 /* Assets.xcassets in Resources */,
-				D78467461C6EC5E9007116C8 /* GameScene.sks in Resources */,
-				D784674B1C6EC5E9007116C8 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -135,23 +120,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D78467441C6EC5E9007116C8 /* GameScene.swift in Sources */,
-				D78467421C6EC5E9007116C8 /* AppDelegate.swift in Sources */,
+				D78467531C6EC688007116C8 /* main.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		D78467491C6EC5E9007116C8 /* MainMenu.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				D784674A1C6EC5E9007116C8 /* Base */,
-			);
-			name = MainMenu.xib;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		D784674D1C6EC5E9007116C8 /* Debug */ = {
